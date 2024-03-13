@@ -1,0 +1,48 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+
+._icon-basket:before {
+  content: "\e902";
+}
+._icon-delete:before {
+  content: "\e90c";
+}
+._icon-gis_position:before {
+  content: "\e90d";
+}
+._icon-pg-last:before {
+  content: "\e90e";
+}
+._icon-pg-next:before {
+  content: "\e90f";
+}
+._icon-minus:before {
+  content: "\e910";
+}
+._icon-plus:before {
+  content: "\e900";
+}
+._icon-search:before {
+  content: "\e912";
+}
+._icon-sort:before {
+  content: "\e913";
+}
+._icon-triangle:before {
+  content: "\e914";
+}
